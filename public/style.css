@@ -1,0 +1,40 @@
+.mainContainer{
+    height: 100vh;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.heading{
+font-size: 50px;
+}
+
+.chat{
+   padding-left:300px;
+   background-color:rgb(189, 189, 189) ;
+   padding: 20px;
+}
+
+.chatForm{
+    border-radius: 10px;
+}
+
+#chat-msgs{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+li{
+    display: flex;
+    gap : 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(189, 189, 189);
+    width:min-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
